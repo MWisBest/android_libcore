@@ -67,3 +67,6 @@ LOCAL_SHARED_LIBRARIES += \
 
 LOCAL_STATIC_LIBRARIES += \
 	libfdlibm
+
+LOCAL_CFLAGS := -fno-strict-aliasing
+LOCAL_CPPFLAGS := -fno-strict-aliasing
